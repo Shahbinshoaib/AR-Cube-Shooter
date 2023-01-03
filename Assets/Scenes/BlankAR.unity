@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
+  m_IndirectSpecularColor: {r: 0.4439403, g: 0.4931519, b: 0.5722083, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -747,15 +747,11 @@ MonoBehaviour:
   CameraOn: {fileID: 7400000, guid: fad6c8fe111d14db8863cf87e19e4fb9, type: 2}
   CameraOff: {fileID: 7400000, guid: aa73df0f07ab74cc9a19c7577c1bf16f, type: 2}
   Cubes:
-  - {fileID: 7888999392284956585, guid: b9a659e7395274368918468a33d8faa7, type: 3}
-  - {fileID: 2876011498634901359, guid: 9be1b85fd1164448db2c3f9b69791732, type: 3}
-  - {fileID: 7419100899331443786, guid: 1e3a78b7eac55439cbe98e56c92c1f3a, type: 3}
-  - {fileID: 6381276951723776505, guid: 316d27928cad04071bcf6b888ab1678d, type: 3}
-  - {fileID: 105268060671457275, guid: 1c48689dc5c1e4a0ca5f73815ba12ee5, type: 3}
+  - {fileID: 6942702072797200425, guid: 0050bda1baa704abcb4691daf32889d8, type: 3}
   spawnPoint: {fileID: 1216295617}
   scoreText: {fileID: 1782063946}
   collectSound: {fileID: 0}
-  cubesInStack: 10
+  cubesInStack: 1
   shooterSpawnPoint: {fileID: 1667654922047304841}
   isShooted: 0
   spawnedCube: {fileID: 0}
@@ -1021,7 +1017,7 @@ PrefabInstance:
     - target: {fileID: 8297056788253150762, guid: 98c57c60d5f37d34cb0d009317bd15af,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8297056788253150762, guid: 98c57c60d5f37d34cb0d009317bd15af,
         type: 3}
@@ -1031,7 +1027,7 @@ PrefabInstance:
     - target: {fileID: 8297056788253150762, guid: 98c57c60d5f37d34cb0d009317bd15af,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8297056788253150762, guid: 98c57c60d5f37d34cb0d009317bd15af,
         type: 3}
@@ -1046,7 +1042,7 @@ PrefabInstance:
     - target: {fileID: 8297056788253150762, guid: 98c57c60d5f37d34cb0d009317bd15af,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 8297056788253150762, guid: 98c57c60d5f37d34cb0d009317bd15af,
         type: 3}

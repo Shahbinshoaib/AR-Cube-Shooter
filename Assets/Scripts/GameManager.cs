@@ -73,7 +73,7 @@ public class GameManager : MonoBehaviour
         for(int i = 0; i < cubesInStack; i++)
         {
             int random = Random.Range(0, Cubes.Length);
-            GameObject cube = Instantiate(Cubes[random], spawnPos, spawnPoint.rotation);
+            GameObject cube = Instantiate(Cubes[random]);
             cube.GetComponent<Rigidbody>().isKinematic = true; //Fixing the position of Cubes
             cube.GetComponent<CubeController>().enabled = false;
             spawnPos += new Vector3(0, 0.05f, 0); //Distance between each cube
